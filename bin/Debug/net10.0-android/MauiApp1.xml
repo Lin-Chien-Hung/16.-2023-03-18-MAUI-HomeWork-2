@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiApp1</name>
+    </assembly>
+    <members>
+        <member name="T:MauiApp1.Language">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:MauiApp1.Language.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:MauiApp1.Language.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="T:MauiApp1.ViewModel.DetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp1.ViewModel.DetailViewModel.Text">
+            <inheritdoc cref="F:MauiApp1.ViewModel.DetailViewModel.text"/>
+        </member>
+        <member name="F:MauiApp1.ViewModel.DetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:MauiApp1.ViewModel.DetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp1.ViewModel.DetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp1.ViewModel.DetailViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:MauiApp1.ViewModel.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp1.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:MauiApp1.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:MauiApp1.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:MauiApp1.ViewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:MauiApp1.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:MauiApp1.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp1.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiApp1.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:MauiApp1.ViewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:MauiApp1.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp1.ViewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MauiApp1.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:MauiApp1.ViewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:MauiApp1.ViewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp1.ViewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MauiApp1.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="T:MauiApp1.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+    </members>
+</doc>

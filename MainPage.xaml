@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModel"
+             x:DataType="viewmodel:MainViewModel">
+
+    <VerticalStackLayout>
+
+        <Grid RowDefinitions="100, Auto, *"
+          ColumnDefinitions=".30*, .25*"
+          Padding="10"
+          RowSpacing="10"
+          ColumnSpacing="10">
+
+            <Image Grid.Row="0" Grid.Column="0" Source="fpg.png" VerticalOptions="Center"/>
+            <Label Grid.Row="0" Grid.Column="1" Text="CIM 智慧環控處" Margin="10,0,0,0" FontSize="20" VerticalOptions="Center" FontAttributes="Bold"/>
+            <Label Grid.Row="1" Text=" • 人員基本資料" Margin="10,0,0,0" FontSize="20" FontAttributes="Bold"/>
+
+        </Grid>
+
+
+        <Grid RowDefinitions="10, Auto, *"
+              ColumnDefinitions=".75*, .25*"
+              Padding="10"
+              RowSpacing="10"
+              ColumnSpacing="10">
+
+            <Entry Placeholder="Enter text" 
+                   Text="{Binding Text}"
+                   Grid.Row="1" />
+
+            <Button Text="新增" 
+                    Command="{Binding AddCommand}"  
+                    Grid.Row="1" 
+                    Grid.Column="1"/>
+
+            <CollectionView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding Items}" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type x:String}">
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=DeleteCommand}"
+                                           CommandParameter="{Binding .}">
+                                </SwipeItem>
+                            </SwipeView.RightItems>
+
+                            <Grid Padding="0,10">
+                                <Border>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=TapCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                    </Border.GestureRecognizers>
+                                    <Label Text="{Binding .}" FontSize="30" MaxLines="2" LineBreakMode="TailTruncation"/>
+                                </Border>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+        </Grid>
+        
+    </VerticalStackLayout>
+
+</ContentPage>
