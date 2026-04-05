@@ -26,16 +26,29 @@
 ## 環境 (Requirements)
 * .Net Core 10
 
-## NuGet 安裝套件 
+## NuGet 安裝套件
+* Microsoft.Maui.Controls (10.0.51)
 * CommunityToolkit.Maui (using CommunityToolkit.Maui;)
+* CommunityToolkit.Maui.Camera (6.0.0), Request Microsoft.Maui.Controls >= 10.0.30
   
 ## 操作流程：
+* dotnet workload restore
 
+## 注意事項
+* 中文輸入法 - 系統設定變更語言
+* Plateform - Android - Resources - AndroidManifest.xml - Camera 加入權限 (看是要用打勾，還是編輯的都可以)
+
+## 參考連結
+1. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMauiCamera
+2. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/views/camera-view?tabs=android
+
+## Answer Code
+1. https://youtu.be/ZmZb12hNTWk?si=BuxSt0LH8jCsf1Ud
 
 ## 引文(Citation)：
 Please cite the following if you make use of the code.
 
->@inproceedings{kye2020meta,
+>@inproceedings{kye2026meta,
   title={Design and Implementation of a Personnel Information Management System with Camera and Geolocation Integration},
   author={Chien-Hung Lin},
   year={2026-04-05}

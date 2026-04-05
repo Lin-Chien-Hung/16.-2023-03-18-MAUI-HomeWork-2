@@ -642,3 +642,5 @@ E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-ios\ios-arm64\refint\MauiApp1.dl
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-ios\ios-arm64\MauiApp1.pdb
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-ios\ios-arm64\MauiApp1.genruntimeconfig.cache
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-ios\ios-arm64\ref\MauiApp1.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-ios\ios-arm64\CommunityToolkit.Maui.Camera.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-ios\ios-arm64\Microsoft.Maui.resources.zip

@@ -628,3 +628,5 @@ E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\refi
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\MauiApp1.pdb
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\MauiApp1.genruntimeconfig.cache
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\ref\MauiApp1.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Camera.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.resources.zip

@@ -933,7 +933,6 @@ E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Maui
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\MauiApp1.runtimeconfig.json
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\MauiApp1.dll
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\MauiApp1.pdb
-E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\resources.pri
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.dll
 E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Core.dll
@@ -1053,3 +1052,19 @@ E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\pri.
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\MauiApp1.pri
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Camera.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Foundation.Projection.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Foundation.Projection.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Pickers.Projection.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.ML.OnnxRuntime.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.MachineLearning.Projection.dll
+E:\2026-03-18-MAUI-HomeWork-2\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Numerics.Tensors.dll
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Controls.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Controls.Xaml.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Essentials.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Graphics.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.UI.pri.xml
+E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.UI.Xaml.Controls.pri.xml

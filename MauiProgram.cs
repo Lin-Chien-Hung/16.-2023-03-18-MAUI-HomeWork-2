@@ -1,5 +1,7 @@
 ﻿using MauiApp1.ViewModel;
-using CommunityToolkit.Maui;
+// 相機使用套件
+using CommunityToolkit.Maui; 
+// CommunityToolkit.Maui.Camera
 using Microsoft.Extensions.Logging;
 
 namespace MauiApp1
@@ -13,10 +15,13 @@ namespace MauiApp1
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-            }).UseMauiCommunityToolkit();
+            }).UseMauiCommunityToolkit()        // For using CommunityToolkit features
+            .UseMauiCommunityToolkitCamera();   // For camera usage
 
+            // AddSingleton：全域唯一實例
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
+            // AddTransient：每次都新建實例
             builder.Services.AddTransient<DetailPage>();
             builder.Services.AddTransient<DetailViewModel>();
 

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\2026-03-18-MAUI-HomeWork-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|e:\\2026-03-18-maui-homework-2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046B9634-E645-0B60-C3EC-B93245F8AD4B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T09:56:06.454Z",
               "IsPinned": true,
@@ -40,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-05T09:58:29.474Z",
               "IsPinned": true,
@@ -54,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -63,6 +79,48 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T09:58:40.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "DetailPage.xaml",
+              "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\DetailPage.xaml",
+              "RelativeToolTip": "DetailPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T15:09:43.314Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailPage.xaml.cs",
+              "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\DetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "DetailPage.xaml.cs",
+              "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\DetailPage.xaml.cs",
+              "RelativeToolTip": "DetailPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:09:45.963Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-05T14:54:50.032Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -93,6 +151,17 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "E:\\2026-03-18-MAUI-HomeWork-2\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "E:\\2026-03-18-MAUI-HomeWork-2\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T17:23:52.028Z"
             }
           ]
         }
