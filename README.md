@@ -38,9 +38,14 @@
 * 中文輸入法 - 系統設定變更語言
 * Plateform - Android - Resources - AndroidManifest.xml - Camera 加入權限 (看是要用打勾，還是編輯的都可以)
 
+* Plateform - Android - Resources - Access_Coarse_Location 地理權限
+* Plateform - Android - Resources - Access_Fine_Location 地理權限
+* Windows - Package.appxmanifest - Capabilities - Location 地理權限 (功能 - 位置)
+
 ## 參考連結
 1. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMauiCamera
 2. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/views/camera-view?tabs=android
+3. https://youtu.be/PhBa263M8vg?si=lWmK2tiD9jix8GOl
 
 ## Answer Code
 1. https://youtu.be/ZmZb12hNTWk?si=BuxSt0LH8jCsf1Ud

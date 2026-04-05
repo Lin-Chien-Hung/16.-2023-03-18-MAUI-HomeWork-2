@@ -22,6 +22,22 @@ public partial class DetailPage : ContentPage
     private async void click_Clicked(object sender, EventArgs e)
     {
         await myCamera.CaptureImage(CancellationToken.None);
+
+        try
+        {
+            GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Best);
+
+            var location = await Geolocation.GetLocationAsync(request);
+            if (location != null)
+            {
+                string locationString = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude:{location.Altitude}, Speed:{location.Speed}";
+                await App.Current.MainPage.DisplayAlert("Location", locationString, "OK");
+            }
+        }
+        catch
+        {
+
+        }
     }
     // ==============================================================================
     private void flash_Clicked(object sender, EventArgs e)
@@ -54,4 +70,5 @@ public partial class DetailPage : ContentPage
             myCamera.SelectedCamera = _cameraProvider.AvailableCameras.FirstOrDefault(c => c.Position == CameraPosition.Front);
         }
     }
+    // ==============================================================================
 }
