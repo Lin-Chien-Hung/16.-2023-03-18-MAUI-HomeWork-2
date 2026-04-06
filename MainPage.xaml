@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<!--x:Class         : 指定這個 XAML 對應的 C# 類別名稱為 MainPage。-->
+<!--xmlns:viewmodel : 引入 MauiApp1.ViewModel 命名空間，讓你可以在 XAML 內使用 ViewModel 型別。-->
+<!--x:DataType      : 指定這個頁面的資料繫結型別為 MainViewModel，可啟用 XAML 編譯時型別檢查與 IntelliSense-->
+    
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.MainPage"
+             x:Class="MauiApp1.MainPage" 
              xmlns:viewmodel="clr-namespace:MauiApp1.ViewModel"
              x:DataType="viewmodel:MainViewModel">
 

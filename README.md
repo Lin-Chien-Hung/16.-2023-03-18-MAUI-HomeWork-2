@@ -6,6 +6,10 @@
 * Conference : Homework_2
 * Date       : 2026-04-05
 
+<p align="center">
+  <img src="./Images/MainPage.png" width="300"/>
+  <img src="./Images/DetailPage.png" width="300"/>
+</p>
 
 ## 摘要 (Abstract)
 建立一個「人員基本資料維護」畫面（延續 HW1 架構）。
@@ -25,6 +29,7 @@
 
 ## 環境 (Requirements)
 * .Net Core 10
+* Android Emulator - Pixcel_7_api_35_0
 
 ## NuGet 安裝套件
 * Microsoft.Maui.Controls (10.0.51)
@@ -42,10 +47,16 @@
 * Plateform - Android - Resources - Access_Fine_Location 地理權限
 * Windows - Package.appxmanifest - Capabilities - Location 地理權限 (功能 - 位置)
 
+## 流程圖
+![image](./Images/flow chart.png)
+
 ## 參考連結
 1. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMauiCamera
 2. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/views/camera-view?tabs=android
 3. https://youtu.be/PhBa263M8vg?si=lWmK2tiD9jix8GOl
+
+## Tools
+1. ScrollView - https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/scrollview?view=net-maui-10.0
 
 ## Answer Code
 1. https://youtu.be/ZmZb12hNTWk?si=BuxSt0LH8jCsf1Ud

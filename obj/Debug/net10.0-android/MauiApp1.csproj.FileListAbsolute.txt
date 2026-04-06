@@ -4935,8 +4935,6 @@ E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\lp\165\jl\files.cache
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\R.txt
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\_Microsoft.Android.Resource.Designer.dll
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\R.cs.flag
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\MauiApp1.Language.resources
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\MauiApp1.csproj.GenerateResource.cache
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\MauiApp1.GeneratedMSBuildEditorConfig.editorconfig
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\MauiApp1.AssemblyInfoInputs.cache
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\MauiApp1.AssemblyInfo.cs
@@ -7675,13 +7673,3 @@ E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\assets\arm64-v8a
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.dll
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.jlo.xml
 E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.typemap.xml
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\typemaps.arm64-v8a.ll
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\environment.arm64-v8a.ll
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.ll
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\compressed_assemblies.arm64-v8a.ll
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\typemaps.arm64-v8a.o
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\environment.arm64-v8a.o
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\compressed_assemblies.arm64-v8a.o
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.o
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\android\jni_remap.arm64-v8a.o
-E:\2026-03-18-MAUI-HomeWork-2\obj\Debug\net10.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

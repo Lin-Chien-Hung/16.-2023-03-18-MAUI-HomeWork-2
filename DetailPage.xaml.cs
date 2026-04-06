@@ -9,8 +9,11 @@ public partial class DetailPage : ContentPage
     private readonly CommunityToolkit.Maui.Core.ICameraProvider _cameraProvider;
     public DetailPage(DetailViewModel vm, CommunityToolkit.Maui.Core.ICameraProvider cameraProvider)
     {
+        // 初始化頁面元件
         InitializeComponent();
+        // 設定資料繫結來源（BindingContext = vm;），讓 XAML 可以綁定 ViewModel
         BindingContext = vm;
+        // 接收並儲存相機服務（_cameraProvider = cameraProvider;），讓頁面可以操作相機功能
         _cameraProvider = cameraProvider;
     }
     // ==============================================================================
@@ -30,13 +33,14 @@ public partial class DetailPage : ContentPage
             var location = await Geolocation.GetLocationAsync(request);
             if (location != null)
             {
-                string locationString = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude:{location.Altitude}, Speed:{location.Speed}";
-                await App.Current.MainPage.DisplayAlert("Location", locationString, "OK");
+                string locationString = $"緯度(Latitude): {location.Latitude}, \n經度(Longitude): {location.Longitude}, \n高度(Altitude):{location.Altitude}, \n速度(Speed):{location.Speed}";
+                //await App.Current.MainPage.DisplayAlert("Location", locationString, "OK");
+                locationLabel.Text = locationString;
             }
         }
         catch
         {
-
+            locationLabel.Text = "無法取得定位資訊";
         }
     }
     // ==============================================================================
