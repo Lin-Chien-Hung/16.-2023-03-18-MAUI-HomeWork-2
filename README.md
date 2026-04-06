@@ -53,7 +53,7 @@
 
 ## 流程圖
 <p align="center">
-  <img src="./Images/flow_chart.png" width="400"/>
+  <img src="./Images/Gemini.png" width="400"/>
 </p>
 
 ## 參考連結
