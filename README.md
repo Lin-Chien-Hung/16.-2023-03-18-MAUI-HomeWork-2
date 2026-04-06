@@ -48,7 +48,6 @@
 * Windows - Package.appxmanifest - Capabilities - Location 地理權限 (功能 - 位置)
 
 ## 流程圖
-// ![image](./Images/flow_chart.png)
 <img src="./Images/flow chart.png" width="300"/>
 
 ## 參考連結
