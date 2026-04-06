@@ -53,7 +53,7 @@
 
 ## 流程圖
 <p align="center">
-  <img src="./Images/Gemini.png" width="400"/>
+  <img src="./Images/Gemini.png" width="800"/>
 </p>
 
 ## 參考連結
