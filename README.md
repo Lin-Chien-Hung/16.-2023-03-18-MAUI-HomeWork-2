@@ -48,7 +48,9 @@
 * Windows - Package.appxmanifest - Capabilities - Location 地理權限 (功能 - 位置)
 
 ## 流程圖
-<img src="./Images/flow_chart.png" width="400"/>
+<p align="center">
+  <img src="./Images/flow_chart.png" width="400"/>
+</p>
 
 ## 參考連結
 1. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMauiCamera
