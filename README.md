@@ -47,6 +47,10 @@
 * Plateform - Android - Resources - Access_Fine_Location 地理權限
 * Windows - Package.appxmanifest - Capabilities - Location 地理權限 (功能 - 位置)
 
+## 生命週期管理 (Lifecycle)
+1. 進入明細頁： DI 容器實例化新的 DetailPage 與 DetailViewModel，確保每次進入時拍照資訊都是乾淨的。
+2. 返回主頁： 點擊返回鍵，明細頁實例被銷毀並釋放資源（如相機鏡頭掛載），回到 Singleton 狀態的 MainPage。
+
 ## 流程圖
 <p align="center">
   <img src="./Images/flow_chart.png" width="400"/>
