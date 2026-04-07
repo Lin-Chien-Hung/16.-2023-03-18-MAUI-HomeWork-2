@@ -1,78 +1,48 @@
 using CommunityToolkit.Maui.Core;
 using MauiApp1.ViewModel;
 
-
 namespace MauiApp1;
 
 public partial class DetailPage : ContentPage
 {
-    private readonly CommunityToolkit.Maui.Core.ICameraProvider _cameraProvider;
-    public DetailPage(DetailViewModel vm, CommunityToolkit.Maui.Core.ICameraProvider cameraProvider)
+    private readonly DetailViewModel _viewModel; // 導入 DetailViewModel
+
+    public DetailPage(DetailViewModel vm)
     {
-        // 初始化頁面元件
-        InitializeComponent();
-        // 設定資料繫結來源（BindingContext = vm;），讓 XAML 可以綁定 ViewModel
-        BindingContext = vm;
-        // 接收並儲存相機服務（_cameraProvider = cameraProvider;），讓頁面可以操作相機功能
-        _cameraProvider = cameraProvider;
+        InitializeComponent(); // 初始化 DetailPage 一個空間
+        BindingContext = vm; // 資料來源是 ViewModel
+        _viewModel = vm;
     }
-    // ==============================================================================
+    // ============================================================
+    // 拍照事件
     private void myCamera_MediaCaptured(object sender, MediaCapturedEventArgs e)
     {
-        Dispatcher.Dispatch(() => { ncameraimage.Source = ImageSource.FromStream(() => e.Media); });
+        Dispatcher.Dispatch(() => _viewModel.OnMediaCaptured(e.Media)); // e.Media 是拍照後的資料流 Stream
     }
-    // ==============================================================================
+    // ============================================================
+    // 拍照事件 => 先拍照，然後載入定位資訊
     private async void click_Clicked(object sender, EventArgs e)
     {
-        await myCamera.CaptureImage(CancellationToken.None);
-
-        try
-        {
-            GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Best);
-
-            var location = await Geolocation.GetLocationAsync(request);
-            if (location != null)
-            {
-                string locationString = $"緯度(Latitude): {location.Latitude}, \n經度(Longitude): {location.Longitude}, \n高度(Altitude):{location.Altitude}, \n速度(Speed):{location.Speed}";
-                //await App.Current.MainPage.DisplayAlert("Location", locationString, "OK");
-                locationLabel.Text = locationString;
-            }
-        }
-        catch
-        {
-            locationLabel.Text = "無法取得定位資訊";
-        }
+        await _viewModel.CaptureAndLoadLocationAsync(myCamera);
     }
-    // ==============================================================================
+    // ============================================================
     private void flash_Clicked(object sender, EventArgs e)
     {
-        myCamera.CameraFlashMode = myCamera.CameraFlashMode == CameraFlashMode.Off ? CameraFlashMode.On : CameraFlashMode.Off;
-        flash.Text = myCamera.CameraFlashMode == CameraFlashMode.Off ? "Flash On" : "Flash Off";
+        _viewModel.ToggleFlash(myCamera);
     }
-    // ==============================================================================
+    // ============================================================
     private void zoomin_Clicked(object sender, EventArgs e)
     {
-        myCamera.ZoomFactor += 0.1f;
+        _viewModel.ZoomIn(myCamera);
     }
-    // ==============================================================================
+    // ============================================================
     private void zoomout_Clicked(object sender, EventArgs e)
     {
-        if (myCamera.ZoomFactor != 0.0f)
-        {
-            myCamera.ZoomFactor -= 0.1f;
-        }
+        _viewModel.ZoomOut(myCamera);
     }
-    // ==============================================================================
+    // ============================================================
     private async void switch_Clicked(object sender, EventArgs e)
     {
-        await _cameraProvider.RefreshAvailableCameras(CancellationToken.None);
-        if (myCamera.SelectedCamera.Position == CameraPosition.Front)
-        {
-            myCamera.SelectedCamera = _cameraProvider.AvailableCameras.FirstOrDefault(c => c.Position == CameraPosition.Rear);
-        }
-        else {
-            myCamera.SelectedCamera = _cameraProvider.AvailableCameras.FirstOrDefault(c => c.Position == CameraPosition.Front);
-        }
+        await _viewModel.SwitchCameraAsync(myCamera);
     }
-    // ==============================================================================
 }

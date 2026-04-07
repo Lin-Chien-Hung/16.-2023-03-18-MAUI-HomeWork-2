@@ -22,7 +22,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiApp1
-build_property.ProjectDir = E:\2026-03-18-MAUI-HomeWork-2\
+build_property.ProjectDir = C:\Users\N000194906\Desktop\MAUI\2026-03-18-MAUI-HomeWork-2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotExportsEnabled = 
@@ -34,7 +34,7 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/App.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -44,7 +44,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/AppShell.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -54,7 +54,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/DetailPage.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/DetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.DetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
@@ -64,7 +64,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/MainPage.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -74,7 +74,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/Resources/Styles/Colors.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -84,7 +84,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[E:/2026-03-18-MAUI-HomeWork-2/Resources/Styles/Styles.xaml]
+[C:/Users/N000194906/Desktop/MAUI/2026-03-18-MAUI-HomeWork-2/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -55,6 +55,11 @@
 <p align="center">
   <img src="./Images/Gemini.png" width="800"/>
 </p>
+<p align="center">
+  <img src="./Images/flow2.png" width="800"/>
+</p>
+
+## ISSUE
 
 ## 參考連結
 1. https://learn.microsoft.com/zh-tw/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMauiCamera
